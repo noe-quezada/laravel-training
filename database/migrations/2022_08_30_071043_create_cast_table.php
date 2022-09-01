@@ -14,7 +14,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('cast', function (Blueprint $table) {
-            $table->unsignedBigInteger('id');
+            $table->id();
             $table->string('name', 25);
             $table->string('last_name', 15);
             $table->date('birthday');

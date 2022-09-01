@@ -21,6 +21,8 @@ return new class extends Migration
             $table->string('genre', 20);
             $table->timestamps();
         });
+
+        
     }
 
     /**
